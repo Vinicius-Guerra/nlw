@@ -217,6 +217,14 @@ nav.show div.icon-close {
     margin-bottom: 1rem;
 }
 
+.section header {
+    margin-bottom: 4rem;
+}
+
+.section header strong {
+    color: var(--base-color);
+}
+
 /*================= HOME================ */
 #home {
     overflow: hidden;
@@ -297,4 +305,25 @@ nav.show div.icon-close {
 #about .text {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+}
+
+/* SERVICES ------------------------ */
+
+.cards.grid {
+    gap: 1.5rem;
+}
+
+.card {
+    padding: 3.625rem 2rem;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.08);
+    border-bottom: .25rem solid var(--base-color);
+    border-radius: .25rem .25rem 0 0;
+    text-align: center;
+}
+
+.card i {
+    display: block;
+    margin-bottom: 1.5rem;
+    font-size: 5rem;
+    color: var(--base-color);
 }
